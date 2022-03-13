@@ -28,6 +28,7 @@
         <version>2.22.2</version>
       </plugin>
     </plugins>
+  </build>
            
    <properties>
         <maven.compiler.source>11</maven.compiler.source>
