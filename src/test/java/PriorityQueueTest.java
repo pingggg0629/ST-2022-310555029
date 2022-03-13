@@ -29,7 +29,7 @@ public class PriorityQueueTest {
 
         while(!minheap.isEmpty()) {
             result_array[k] = (Integer)minheap.poll();
-            //++k;
+            ++k;
         }
 
         Assertions.assertEquals(Arrays.toString(correct_array), Arrays.toString(result_array));
